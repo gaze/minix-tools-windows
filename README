@@ -1,1 +1,6 @@
-Stuff for cs170
+Some tools for working with minix kernels under windows
+
+empty.img is just a "floppy" image loaded with grub and no config.
+mkfloppy.sh injects your kernel and a config into it. If you wanna
+	change the config, just edit mkfloppy.sh
+
